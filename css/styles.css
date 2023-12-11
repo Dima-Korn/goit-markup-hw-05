@@ -521,15 +521,21 @@ body {
 
 .subscr-form-text {
   display: flex;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 
 .subscr-form {
+  display: flex;
+  gap: 24;
 }
 
 .subscr-form-label {
   display: flex;
-  gap: 24px;
 }
 
 .subscr-form-input {
