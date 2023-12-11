@@ -478,6 +478,10 @@ body {
   max-width: 264px;
 }
 
+.social-media {
+  margin-right: 80px;
+}
+
 .foot-social-par {
   color: #ffffff;
   font-style: normal;
@@ -509,7 +513,6 @@ body {
 /* Footer form */
 
 .subscr-box {
-  display: flex;
   width: 453px;
   height: 80px;
   border-radius: 4px;
@@ -517,19 +520,34 @@ body {
 }
 
 .subscr-form-text {
+  display: flex;
+  margin-bottom: 16px;
 }
 
 .subscr-form {
 }
 
 .subscr-form-label {
+  display: flex;
+  gap: 24px;
+}
+
+.subscr-form-input {
 }
 
 .subscr-button {
+  color: #fff;
   display: flex;
+  background-color: #4d5ae5;
   align-items: center;
   justify-content: center;
-  padding: 8px, 24px, 8px, 24px;
+  padding: 8px 24px 8px 24px;
   border-radius: 4px;
   gap: 16px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.subscr-icon {
+  fill: #fff;
 }
