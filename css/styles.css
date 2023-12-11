@@ -531,7 +531,7 @@ body {
 
 .subscr-form {
   display: flex;
-  gap: 24;
+  gap: 24px;
 }
 
 .subscr-form-label {
