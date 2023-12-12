@@ -611,13 +611,30 @@ body {
 }
 
 .close-btn {
+  cursor: pointer;
   position: absolute;
   top: 24px;
   right: 24px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #e7e9fc;
+  padding: 0;
 }
 
-.close-icon {
+.close-btn:hover,
+.close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.close-icon:hover,
+.close-icon:focus {
+  fill: #ffffff;
 }
 
 .modal-par {
