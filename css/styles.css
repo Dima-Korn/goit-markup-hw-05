@@ -740,4 +740,11 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
+}
+
+input:checked + label > .check-area {
+  border: none;
+  background-color: #404bbf;
+  fill: #f4f4fd;
 }
